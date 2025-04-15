@@ -7,7 +7,6 @@ def is_prime(n):
         if n % i == 0:
             return False
     return True
-
 def write_primes(limit, filename="primes.txt"):
     """Записывает все простые числа до `limit` в файл."""
     with open(filename, "w") as file:
